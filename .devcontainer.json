@@ -1,4 +1,5 @@
 {
+	"name": "codespace",
 	"customizations": {
 		"codespaces": {
 			"repositories": {
