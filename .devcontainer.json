@@ -1,0 +1,17 @@
+{
+	"customizations": {
+		"codespaces": {
+			"repositories": {
+				"avamsi/climate": {
+					"permissions": "write-all"
+				},
+				"avamsi/ergo": {
+					"permissions": "write-all"
+				},
+				"avamsi/tmuxl": {
+					"permissions": "write-all"
+				}
+			}
+		}
+	}
+}
