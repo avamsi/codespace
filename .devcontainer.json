@@ -21,6 +21,32 @@
 					"permissions": "write-all"
 				}
 			}
+		},
+		"vscode": {
+			"extensions": [
+				"gerane.theme-flatlanddark",
+				"github.codespaces",
+				"github.copilot",
+				"github.vscode-pull-request-github",
+				"golang.go",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-vscode.sublime-keybindings",
+				"pkief.material-icon-theme",
+				"visualstudioexptteam.vscodeintellicode"
+			]
 		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils": {
+			"configureZshAsDefaultShell": true,
+			"installOhMyZsh": false
+		},
+		"ghcr.io/devcontainers/features/git": {},
+		"ghcr.io/devcontainers/features/github-cli": {},
+		"ghcr.io/devcontainers/features/go": {},
+		"ghcr.io/devcontainers/features/python": {},
+		"ghcr.io/devcontainers/features/rust": {},
+		"ghcr.io/devcontainers-contrib/features/homebrew-package": {}
 	}
 }
