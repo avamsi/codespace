@@ -9,9 +9,7 @@
 		},
 		"ghcr.io/devcontainers/features/go": {},
 		"ghcr.io/devcontainers/features/rust": {},
-		"ghcr.io/devcontainers-contrib/features/homebrew-package": {
-			"package": "antigen"
-		}
+		"ghcr.io/meaningful-ooo/devcontainer-features/homebrew": {}
 	},
 	"postCreateCommand": "/workspaces/codespace/setup.zsh",
 	"customizations": {

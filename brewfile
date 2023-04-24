@@ -3,6 +3,7 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
 
+brew "antigen"
 brew "bat"
 brew "delta"
 brew "fzf"
