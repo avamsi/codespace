@@ -5,6 +5,7 @@ tap "homebrew/services"
 
 brew "antigen"
 brew "bat"
+brew "bc"
 brew "delta"
 brew "fzf"
 brew "gh"
