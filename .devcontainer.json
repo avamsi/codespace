@@ -50,5 +50,6 @@
 		"ghcr.io/devcontainers/features/rust": {},
 		"ghcr.io/devcontainers-contrib/features/homebrew-package": {}
 	},
-	"postCreateCommand": "setup.zsh"
+	"postCreateCommand": "setup.zsh",
+	"remoteUser": "vscode"
 }
