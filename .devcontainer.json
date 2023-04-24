@@ -43,12 +43,11 @@
 			"configureZshAsDefaultShell": true,
 			"installOhMyZsh": false
 		},
-		"ghcr.io/devcontainers/features/git": {},
 		"ghcr.io/devcontainers/features/github-cli": {},
 		"ghcr.io/devcontainers/features/go": {},
-		"ghcr.io/devcontainers/features/python": {},
 		"ghcr.io/devcontainers/features/rust": {},
-		"ghcr.io/devcontainers-contrib/features/homebrew-package": {}
+		// TODO: brew is not available (yet) on ghcr.io/devcontainers.
+		"homebrew": {}
 	},
 	"postCreateCommand": "setup.zsh",
 	"remoteUser": "vscode"
