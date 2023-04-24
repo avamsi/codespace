@@ -9,7 +9,7 @@
 		},
 		"ghcr.io/devcontainers/features/go": {},
 		"ghcr.io/devcontainers/features/rust": {},
-		"ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {}
+		"ghcr.io/devcontainers-contrib/features/homebrew-package": {}
 	},
 	"postCreateCommand": "setup.zsh",
 	"customizations": {
