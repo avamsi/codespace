@@ -1,5 +1,17 @@
 {
 	"name": "codespace",
+	"image": "mcr.microsoft.com/devcontainers/base:debian",
+	"remoteUser": "vscode",
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils": {
+			"configureZshAsDefaultShell": true,
+			"installOhMyZsh": false
+		},
+		"ghcr.io/devcontainers/features/go": {},
+		"ghcr.io/devcontainers/features/rust": {},
+		"ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {}
+	},
+	"postCreateCommand": "setup.zsh",
 	"customizations": {
 		"codespaces": {
 			"repositories": {
@@ -37,18 +49,5 @@
 				"visualstudioexptteam.vscodeintellicode"
 			]
 		}
-	},
-	"features": {
-		"ghcr.io/devcontainers/features/common-utils": {
-			"configureZshAsDefaultShell": true,
-			"installOhMyZsh": false
-		},
-		"ghcr.io/devcontainers/features/github-cli": {},
-		"ghcr.io/devcontainers/features/go": {},
-		"ghcr.io/devcontainers/features/rust": {},
-		// TODO: brew is not available (yet) on ghcr.io/devcontainers.
-		"homebrew": {}
-	},
-	"postCreateCommand": "setup.zsh",
-	"remoteUser": "vscode"
+	}
 }
