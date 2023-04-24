@@ -11,7 +11,7 @@
 		"ghcr.io/devcontainers/features/rust": {},
 		"ghcr.io/devcontainers-contrib/features/homebrew-package": {}
 	},
-	"postCreateCommand": "setup.zsh",
+	"postCreateCommand": "/workspaces/codespace/setup.zsh",
 	"customizations": {
 		"codespaces": {
 			"repositories": {
@@ -46,6 +46,7 @@
 				"ms-python.vscode-pylance",
 				"ms-vscode.sublime-keybindings",
 				"pkief.material-icon-theme",
+				"rust-lang.rust-analyzer",
 				"visualstudioexptteam.vscodeintellicode"
 			]
 		}
