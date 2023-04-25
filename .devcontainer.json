@@ -15,7 +15,7 @@
 	"customizations": {
 		"codespaces": {
 			"repositories": {
-				"avamsi/clifr": {
+				"avamsi/axl": {
 					"permissions": "write-all"
 				},
 				"avamsi/climate": {
