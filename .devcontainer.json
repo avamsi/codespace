@@ -15,22 +15,7 @@
 	"customizations": {
 		"codespaces": {
 			"repositories": {
-				"avamsi/axl": {
-					"permissions": "write-all"
-				},
-				"avamsi/climate": {
-					"permissions": "write-all"
-				},
-				"avamsi/dotfiles": {
-					"permissions": "write-all"
-				},
-				"avamsi/ergo": {
-					"permissions": "write-all"
-				},
-				"avamsi/rd": {
-					"permissions": "write-all"
-				},
-				"avamsi/tmuxl": {
+				"avamsi/*": {
 					"permissions": "write-all"
 				}
 			}
